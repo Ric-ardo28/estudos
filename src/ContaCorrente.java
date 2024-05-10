@@ -29,7 +29,6 @@ public class ContaCorrente extends ContaBancaria{
         System.out.println("valor sacado: " + valor);
         adicionarTransacao("Saque realizado no Valor: " + valor);
     }
-
     public double getLimiteChequeEspecial() {
         return limiteChequeEspecial;
     }

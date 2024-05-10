@@ -47,6 +47,7 @@ public abstract class ContaBancaria implements Imprimivel{
             System.out.println(transacao);
         }
     }
+
     public void adicionarTransacao(String transacao) {
         historicoTransacoes.add(transacao);
     }

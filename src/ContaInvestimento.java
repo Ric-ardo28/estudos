@@ -17,7 +17,6 @@ public class ContaInvestimento extends ContaBancaria{
     public void setTaxaJuros(double taxaJuros) {
         this.taxaJuros = taxaJuros;
     }
-
     public double calculaTaxaJuros(int anos, double taxaJuros) {
         System.out.println("Taxa de juros ao ano : "+taxaJuros);
         System.out.println("saldo inicial: "+getSaldo());
